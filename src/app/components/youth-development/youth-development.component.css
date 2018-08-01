@@ -165,33 +165,33 @@
   }
 
   .slider li.anim6 {
-    -moz-animation: cycle 15s linear infinite;
-    -webkit-animation: cycle 15s linear infinite;
-    animation: cycle 15s linear infinite;
+    -moz-animation: cycle6 15s linear infinite;
+    -webkit-animation: cycle6 15s linear infinite;
+    animation: cycle6 15s linear infinite;
   }
 
   .slider li.anim7 {
-    -moz-animation: cycle 15s linear infinite;
-    -webkit-animation: cycle 15s linear infinite;
-    animation: cycle 15s linear infinite;
+    -moz-animation: cycle7 15s linear infinite;
+    -webkit-animation: cycle7 15s linear infinite;
+    animation: cycle7 15s linear infinite;
   }
 
   .slider li.anim8 {
-    -moz-animation: cycle 15s linear infinite;
-    -webkit-animation: cycle 15s linear infinite;
-    animation: cycle 15s linear infinite;
+    -moz-animation: cycle8 15s linear infinite;
+    -webkit-animation: cycle8 15s linear infinite;
+    animation: cycle8 15s linear infinite;
   }
 
   .slider li.anim9 {
-    -moz-animation: cycle 15s linear infinite;
-    -webkit-animation: cycle 15s linear infinite;
-    animation: cycle 15s linear infinite;
+    -moz-animation: cycle9 15s linear infinite;
+    -webkit-animation: cycle9 15s linear infinite;
+    animation: cycle9 15s linear infinite;
   }
 
   .slider li.anim10 {
-    -moz-animation: cycle 15s linear infinite;
-    -webkit-animation: cycle 15s linear infinite;
-    animation: cycle 15s linear infinite;
+    -moz-animation: cycle10 15s linear infinite;
+    -webkit-animation: cycle10 15s linear infinite;
+    animation: cycle10 15s linear infinite;
   }
   
   .slider:hover li {
@@ -382,7 +382,7 @@
     }
   }
   
-  @-webkit-keyframes cycle {
+  @-webkit-keyframes cycle6 {
     0% {
       top: 0px;
     }
@@ -424,7 +424,7 @@
     }
   }
   
-  @-webkit-keyframes cycle2 {
+  @-webkit-keyframes cycle7 {
     0% {
       top: -325px;
       opacity: 0;
@@ -463,7 +463,7 @@
     }
   }
   
-  @-webkit-keyframes cycle3 {
+  @-webkit-keyframes cycle8 {
     0% {
       top: -325px;
       opacity: 0;
@@ -502,7 +502,7 @@
     }
   }
   
-  @-webkit-keyframes cycle4 {
+  @-webkit-keyframes cycle9 {
     0% {
       top: -325px;
       opacity: 0;
@@ -541,7 +541,7 @@
     }
   }
   
-  @-webkit-keyframes cycle5 {
+  @-webkit-keyframes cycle10 {
     0% {
       top: -325px;
       opacity: 0;
@@ -593,7 +593,7 @@
 
 .arrow{
     position: absolute;
-    top: 95%;
+    top: 70%;
     width: 25px;
     left: 50%;
 }
