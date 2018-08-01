@@ -25,7 +25,6 @@
     text-align: center;
     width: 100%;
     font-size: 32px;
-    font-weight: 200; 
 }
 
 .hover-black-button {
@@ -58,14 +57,75 @@
     left: 28%;
 }
 
-#css{
+#css {
     width: 100%;
-    height: 700px;
+    height: 850px;
     background: url('../../../../assets/css.png');
     background-size: cover;
     background-repeat: no-repeat;
     
 }
-.container{
+.container {
     width: 100%;
+}
+
+.long-card-white {
+    display: flex;
+    background-color: #f2f2f2;
+    color: #2f2f2f;
+}
+
+.white-content {
+    flex: 1;
+    padding-top: 7%;
+    text-align: center;
+    padding-right: 15%;
+    font-size: 150%;
+}
+
+.white-img {
+    flex: 1;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 24%;
+}
+
+.white-btn {
+    background-color: #2f2f2f;
+    color: #f2f2f2;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 1px #2f2f2f solid;
+    border-radius: 50px;
+}
+
+.long-card-blue {
+    display: flex;
+    background-color: #007E9A;
+    color: #f2f2f2;
+}
+
+.blue-content {
+    flex: 1;
+    padding-top: 9%;
+    text-align: center;
+    padding-left: 12.5%;
+    font-size: 150%;
+}
+
+.blue-img {
+    flex: 1;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    padding-right: 12%;
+}
+
+.blue-btn {
+    background-color: #f2f2f2;
+    color: #2f2f2f;
+    padding-left: 10%;
+    padding-right: 10%;
+    border: 1px #f2f2f2 solid;
+    border-radius: 50px;
 }
